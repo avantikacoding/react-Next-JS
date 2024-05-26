@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    .logo{
+        font-weight: bold;
+        font-size: 22px;
+        letter-spacing: 13px;
+    }
+    .links{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .logout{
+            background-color: #53c28b;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    }
+}
